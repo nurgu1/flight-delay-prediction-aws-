@@ -51,6 +51,12 @@ collecting weather data over longer periods and integrating live flight status A
 
 ---
 
+## Repository Contents
+- `/lambda`: AWS Lambda function for OpenWeather API ingestion
+- `/athena`: SQL queries used for analysis
+- `/architecture`: Pipeline architecture diagram
+- `/presentation`: Final presentation slides
+
 ## Contributors
 - Student: Nurgul Amirkhan
 - Instructors: szabild@yahoo.com, balint.matyus@gmail.com
