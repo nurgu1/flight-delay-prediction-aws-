@@ -1,24 +1,10 @@
-## Data Ingestion
+## Implementation Details
+- Historical flight delay data was uploaded to Amazon S3.
+- AWS Glue Crawlers were used to automatically infer schemas.
+- An AWS Lambda function was implemented to fetch weather data from the OpenWeather API
+  and store it in Amazon S3.
+- Amazon Athena was used to query both datasets and compute KPIs.
 
-- Historical flight data was transferred to Amazon S3 using AWS DataSync.
-- Weather data was collected via OpenWeather API using an AWS Lambda function.
-
-## Data Processing
-
-AWS Glue was used to:
-- Clean missing values
-- Normalize timestamps
-- Convert JSON weather data into tabular format
-- Join weather and flight datasets by airport and time
-
-## Analytics
-
-AWS Athena queries were executed to:
-- Identify correlation between weather conditions and delays
-- Detect high-risk airports
-- Analyze seasonal patterns
-
-## Results Interpretation
-
-The analysis shows that strong wind and low visibility significantly
-increase the probability of flight delays, especially during winter months.
+## Analysis Approach
+Due to differences in temporal granularity between historical and real-time data,
+analysis focused on aggregated patterns rather than direct record-level joins.
