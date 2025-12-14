@@ -1,13 +1,10 @@
 ## Key Performance Indicators
 
-1. **Average Delay Duration**
-   - Measures operational efficiency improvements.
+### KPI 1: Average Delay Rate by Airport
+Identifies airports with consistently high delay frequencies.
 
-2. **Weather-Related Delay Ratio**
-   - Percentage of delays caused by adverse weather conditions.
+### KPI 2: Weather Delay Share
+Measures the proportion of delay minutes attributable to weather conditions.
 
-3. **High-Risk Airport Index**
-   - Number of airports with delay probability above a defined threshold.
-
-4. **Seasonal Delay Variance**
-   - Difference in delay frequency across seasons.
+### KPI 3: Seasonal Weather Impact
+Analyzes monthly variation in weather-related delays to identify seasonal risk patterns.
