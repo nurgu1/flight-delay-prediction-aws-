@@ -1,18 +1,10 @@
 ## Stakeholders
-
-### Primary Stakeholders
-- Airline Operations Managers
-- Airport Resource Planners
-- Customer Experience Teams
-
-### Secondary Stakeholders
-- Passengers
-- Data Analysts
-- Airline Management
+- Airline operations managers
+- Airport coordination teams
+- Network planning departments
 
 ## Business Value
-
-- Early identification of high delay risk flights
-- Better gate and crew allocation
-- Reduced compensation and fuel costs
-- Improved passenger communication and satisfaction
+The project enables airlines to identify structurally delay-prone airports and
+high-risk seasons. By combining historical delay patterns with real-time weather
+conditions, airlines can proactively adjust schedules, staffing, and routing decisions
+to reduce disruption and improve customer experience.
